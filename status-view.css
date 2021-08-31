@@ -1,0 +1,50 @@
+body{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(218, 174, 174);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#main-div{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#main-div table{
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(144, 12, 63);
+}
+
+#main-div, #main-div th, #main-div td{
+    border: 1px solid rgb(175, 140, 140);
+}
+
+td{
+    width: 50%;
+    background: rgb(240, 219, 219);
+    color: rgb(41, 61, 61);
+}
+
+#btn-serv1, #btn-serv2 {
+    visibility: hidden;
+    font-size: 20px;
+    color: mintcream;
+    background: rgb(144, 12, 63);
+    padding: 25px 100px;
+}
+
+#btn-serv1:hover, #btn-serv2:hover {
+    color: rgb(144, 12, 63);
+    background: mintcream;
+    transition-duration: 1s;
+}
+
+#main-div th, #main-div td{
+    padding: 5px;
+    text-align: center;
+}
+

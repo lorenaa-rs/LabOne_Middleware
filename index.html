@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Servers Status</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='styles/status-view.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="main-div">
+        <table id="data-table">
+            <tr>
+                <td></td>
+                <td class="info-status"><h1>Estado Servidor 1</h1></td>
+                <td class="info-status"><h1>Estado Servidor 2</h1></td>
+            </tr>
+            <tr>
+                <td><h1>IP Servidor</h1></td>
+                <td><h1 id="ip-server1"></h1></td>
+                <td><h1 id="ip-server2"></h1></td>
+            </tr>
+        </table>
+        <tr>
+            <td><input type="button" id="btn-serv1" value="Iniciar Servidor 1"></input></td>
+            <td><input type="button" id="btn-serv2" value="Iniciar Servidor 2"></input></td>
+        </tr>
+    </div>
+    <script src='scripts/request.js'></script>
+</body>
+</html>
