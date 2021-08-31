@@ -1,0 +1,37 @@
+{
+  "name": "sdlab01_middleware",
+  "description": "",
+  "version": "1.0.0",
+  "main": "middleware.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "pm2": "^4.5.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "nodemonConfig": {
+    "ignore": [
+      "./clientPage",
+      "./report.log"
+    ]
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luE11/SDLab01_middleware.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luE11/SDLab01_middleware/issues"
+  },
+  "homepage": "https://github.com/luE11/SDLab01_middleware#readme"
+}
